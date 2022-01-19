@@ -1,0 +1,394 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rundgang</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- font family -->
+    <link rel="stylesheet" href="./assets/css/font.css">
+    <!-- main style sheet -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Special Word style sheet -->
+    <link rel="stylesheet" href="./assets/css/special-word.css">
+
+
+    <style>
+        @media only screen and (min-width:991px) {
+            body{
+                animation-name: zoompagebody;
+                animation-duration: 5s;
+                animation-iteration-count: infinite;
+                animation-delay: 2.5s;
+                transition: all 1s ease;
+            }
+            @keyframes zoompagebody {
+                from{
+                    overflow-x: hidden;
+                    max-width: 100vw;
+                }
+                to{
+                    overflow-x: hidden;
+                    max-width: 100vw;
+                }
+            }
+
+
+            header#header{
+                animation-name: header;
+                animation-duration: 5s;
+                animation-iteration-count: infinite;
+                animation-delay: 2.5s;
+                transition: all 1s ease;
+            }
+            @keyframes header {
+                from{
+                    padding-bottom: 50px;
+                    margin-bottom: 100px;
+                }
+                to{
+                    padding-bottom: 50px;
+                    margin-bottom: 100px;
+                }
+            }
+
+
+            main#main{
+                animation-name: zoompage;
+                animation-duration: 5s;
+                animation-iteration-count: infinite;
+                animation-delay: 2.5s;
+                transition: all 1s ease;
+            }
+            @keyframes zoompage {
+                from{
+                    transform: scale(1.2);
+                }
+                to{
+                    transform: scale(1.2);
+                }
+            }
+        }
+    </style>
+
+
+    <!-- Responsive Style Sheet -->
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+
+   
+</head>
+<body>
+
+
+    <!-- ========== Header ========== -->
+    <header id="header">
+        <a href="#" class="toggle-menu-icon">
+            <i class="fas fa-bars" onclick="toggleMenu();"></i>
+            <i class="fas fa-times" onclick="toggleMenu();"></i>
+        </a>
+        <nav id="menu" class="navigation">
+            <ul>
+                <li><a href="index.html" onclick="toggleMenu();">Startseite</a></li>
+                <li><a href="chronik.html" onclick="toggleMenu();">Chronik</a></li>
+                <li><a href="interview.html" onclick="toggleMenu();">Interviews</a></li>
+                <li><a href="Waldfriedhof-Halbe.html" onclick="toggleMenu();">Waldfriedhof Halbe</a></li>
+                <li><a href="rundgang.html" onclick="toggleMenu();">Rundgang</a></li>
+                <li><a href="Über-das-Projekt.html" onclick="toggleMenu();">Über das Projekt</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    <!-- =======x== Header ==x======= -->
+    <!-- ========== Main Content ========== -->
+    <div class="map-button-wrapper">
+        
+        <div id="closeButton01" class="closeButton"><i class="fa fa-times"></i></div>
+    </div>
+    <main id="main">
+        <h2 class="page-title headng">Rundgang durch das ehemalige Speziallager</h2>
+        <div class="padd-web">
+            <div class="pad-pra einführung">
+                <h2>Einführung</h2>
+               <p> Das Speziallager Ketschendorf befand sich auf dem Gelände und auch größtenteils in den Gebäuden der Kabelwerk-Siedlung in Ketschendorf, die heute als Teil Fürstenwalde-Süds wieder als Wohnsiedlung genutzt wird. Das Lager Nr. 5 Ketschendorf entstand im April 1945 und damit bereits vor der deutschen Kapitulation am 8. Mai 1945. Im Februar 1947 wurde es aufgelöst. Der Rundgang wird geleitet vom Gedenkstättenlehrer Ingolf Poetsch. Er arbeitet gemeinsam mit Schüler:innen an verschiedenen Projekten, die sich mit der Geschichte der Siedlung und des Lager auseinandersetzen.</p>
+            </div>
+        </div>
+        <div class="map-location-wrapper">
+            <div class="map-img-wrapper">
+                <img src="./assets/img/map.png" alt="" class="img-fluid map-img">
+                <div class="map-button-1 map-button" id="map-button-1">
+                    <i class="fa fa-map-marker-alt"></i>
+                    
+                    <div class="m-height map-info map-info-1">
+                        
+                        <div class="map-info-box">
+                            <h2>Einführung</h2>
+                            <div class="img-box">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/ygKl7x8TN-c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                               
+                            </div>
+                            <div class="info">
+                                <p>
+                                    Das Speziallager Ketschendorf befand sich auf dem Gelände und auch größtenteils in den Gebäuden der Kabelwerk-Siedlung in Ketschendorf, die heute als Teil Fürstenwalde-Süds wieder als Wohnsiedlung genutzt wird. Das Lager Nr. 5 Ketschendorf entstand im April 1945 und damit bereits vor der deutschen Kapitulation am 8. Mai 1945. Im Februar 1947 wurde es aufgelöst.
+
+                                    Der Rundgang wird geleitet vom Gedenkstättenlehrer Ingolf Poetsch. Er arbeitet gemeinsam mit Schüler:innen an verschiedenen Projekten, die sich mit der Geschichte der Siedlung und des Lager auseinandersetzen.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="map-button-2 map-button" id="map-button-2">
+                    <i class="fa fa-map-marker-alt"></i>
+
+                    <script>
+                    
+                    </script>
+                    <div class="map-info map-info-1">
+                        <div class="map-info-box">
+                            <h2>Geschichtswerkstatt</h2>
+                            <div class="img-box">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/PkTi2qWkXsU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="info">
+                                <p>
+                                    Die Geschichtswerkstatt in Ketschendorf (Fürstenwalde-Süd) existiert seit 2016. Initiiert wurde sie von der Melior Domus Immobilien GmbH, der Hausverwaltung der Reifenwerk-Siedlung. In der Geschichtswerkstatt erhalten Besucher:innen einen Eindruck und Überblick über die Geschichte der Siedlung und des Internierungslagers Ketschendorf.
+
+                                    Eine Bilderwand zeigt Entstehung und Alltag der Reifenwerk-Siedlung. Informationstafeln geben einen Überblick über die Geschichte des Lagers und der Internierten. Hier ist allerdings anzumerken, dass diese bisweilen nicht mehr dem aktuellen Forschungsstand entsprechen, beispielsweise was die Opferzahl betrifft. Aktuell sind 4722 Opfer namentlich bekannt.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-button-3 map-button" id="map-button-3">
+                    <i class="fa fa-map-marker-alt"></i>
+                    <div class="map-info map-info-1">
+                        <div class="map-info-box">
+                            <h2>Wlassow-Soldaten/Frauenlager</h2>
+                            <div class="img-box">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/nXuPFq8ciig" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="info">
+                                <p>
+                                    3,8 Prozent aller Internierten in Ketschendorf waren Frauen oder Mädchen. Am 28. März 1946 wurde mit 687 Frauen im Speziallager Höchststand an weiblichen Internierten erreicht. Im Januar 1947, also etwa einen Monat vor der Auflösung des Speziallagers, wurde der Großteil der Frauen in das Speziallager Jamlitz verlegt. Einige ehemalige internierte Frauen wie Erika Schulze oder Waltraut Marschhausen engagierten sich später für Aufarbeitung und Gedenken an das Lager.
+
+                                    Das Frauenlager befand sich in drei, mit Stacheldraht vom Rest des Lagers abgegrenzten, ehemaligen Wohnhäusern. In unmittelbarer Nähe waren Angehörige der sogenannten 
+                                    <div class="special-word" id="RUNDGANG02">
+                                        <span class="main-word">Wlassow-Armee</span>
+                                        <div class="special-word-info">
+                                            <div id="closeButton02" class="closeButton"><i class="fa fa-times"></i></div>
+                                            <h2>Wlassow-Armee</h2>
+                                            <p>Die Russische Befreiungsarmee (ROA), auch nach ihrem ersten Kommandanten Andrei Andrejewitsch Wlassow „Wlassow-Armee“ genannt, war eine russisch-Sowjetische Einheit, die auf Seiten der deutschen Wehrmacht gegen die Rote Armee kämpfte.</p>
+                                        </div>
+                                    </div>
+                                    untergebracht. Nach Kriegsende wurde Generalleutnant Andrei Wlassow sowie weitere Personen aus der Führungsriege der Armee nach einem Prozess in Moskau hingerichtet. “Einfache” Soldaten der “Russischen Befreiungsarmee” wurden von der Roten Armee häufig für mehrere Jahre interniert.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-button-4 map-button" id="map-button-4">
+                    <i class="fa fa-map-marker-alt"></i>
+                    <div class="map-info map-info-1">
+                        <div class="map-info-box">
+                            <h2>Wachmannschaften</h2>
+                            <div class="img-box">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/oOWoGXbWcuk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="info">
+                                <p>
+                                    Die Speziallager in der Sowjetischen Besatzungszone unterstanden dem Sowjetischen Volkskommissariat für innere Angelegenheit (
+                                    
+                                        <div class="special-word" id="RUNDGANG01">
+                                            <span class="main-word">NKWD</span>
+                                            <div class="special-word-info poplink">
+                                                
+                                                <h2>NKWD</h2>
+                                                <p>Die Abkürzung NKWD steht im Russischen für „Volkskommissariat für innere Angelegenheiten“ und bezeichnet somit das Innenministerium der Sowjetunion. Das NKWD war unter anderem für die Sowjetische Geheimpolizei, sowie das Gulag-System und somit auch für die Speziallager verantwortlich.</p>
+                                            </div>
+                                        </div>, ab 1946 MWD). Grundlage für die Errichtung der Lager war der NKWD-Befehl Nr. 00315. Dieser legte fest, welche Personengruppen verhaftet und interniert werden sollten. Die Verwaltung der Lager erfolgte durch die Abteilung Speziallager des NKWD. Ihren Sitz hatte die Abteilung bei der Sowjetischen Militäradministration in Deutschland (SMAD), bis Juli 1945 in Fürstenwalde, anschließend in Berlin.
+
+                                    Laut Stellenplan umfassten die Wachmannschaften des Speziallagers Ketschendorf 107 Mann, davon 26 Offiziere. Lagerleiter war NKWD-Major Konstantin Pavlovič Andreev. Neben Andreev sind nur wenige Namen der Lagerverwaltung bekannt, darunter sein Stellvertreter Vaškevič. Nach Auflösung des Lagers Ketschendorf wurde Andreev Leiter des Speziallagers Nr. 2 Buchenwald.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-button-5 map-button" id="map-button-5">
+                    <i class="fa fa-map-marker-alt"></i>
+                    <div class="map-info map-info-1">
+                        <div class="map-info-box">
+                            <h2>Jugendlichen</h2>
+                            <div class="img-box">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/iQerAWrgUsI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="info">
+                                <p>
+                                    Die meisten Internierten in Ketschendorf waren entweder älter als 45 Jahre oder Jugendliche. Grund dafür ist, dass viele Angehörige der “mittleren Generation” sich als Teil der Wehrmacht in Kriegsgefangenschaft befanden, verschollen oder gefallen waren. Die genaue Zahl der internierten Jugendlichen im Speziallager lässt sich nicht rekonstruieren, es waren wohl mindestens 1.400 Menschen, die 1945 größtenteils jünger als 18 waren.
+
+                                    Die Sterblichkeit unter Jugendlichen war in Ketschendorf im Vergleich zu anderen Speziallagern, sehr hoch. Rund 21 Prozent der Jugendlichen starben – das sind etwa 6,3 Prozent aller Verstorbenen im Lager. Ein Großteil, der heute verfügbaren Aussagen von Zeitzeug:innen sind von Internierten, die in Ketschendorf als Jugendliche interniert waren.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-button-6 map-button" id="map-button-6">
+                    <i class="fa fa-map-marker-alt"></i>
+                    <div class="map-info map-info-1">
+                        <div class="map-info-box">
+                            <h2>Medizin und Tod</h2>
+                            <div class="img-box">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/QODTcEhbLVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>>
+                            </div>
+                            <div class="info">
+                                <p>
+                                    Die medizinische Versorgung im Lager war mangelhaft. Schon bei der Ankunft im Lager wurde nur ein Bruchteil der Menschen im Vorfeld ärztlich untersucht, einige wenige wurden entlaust. Verantwortlich für die medizinischen Einrichtungen im Lager waren die Sowjetische Verwaltung, diese überließen die Behandlung der Kranken allerdings den Inhaftieren, unter denen sich auch Mediziner:innen befanden.
+
+                                    Erkrankungen wie Typhus, Krätze oder Ruhr breiteten sich oft massenhaft im Lager aus. Den Ärzt:innen standen keine ausreichenden Gegenmaßnahmen zur Verfügung. Ab Mitte 1946 besserte sich die medizinische Situation in Ketschendorf etwas, was sich mit der Erhöhung der Lebensmittelrationen erklären lässt.
+
+                                    Dies zeigt sich auch an der Sterblichkeit in Ketschendorf, die im Winter 1946/47 weniger als 100 Menschen im Monat betrug, während im Frühjahr 1946 monatlich etwa 600 Internierte starben. Die Verstorbenen wurden in der frühen Phase des Lagers von Internierten, die Teil des sogenannten Gräberkommandos waren, auf Bahren hinausgetragen. Später wurden die Toten mit Hilfe eines Pferdewagens zu den Massengräbern südlich des Lagers, im Wäldchen gebracht. Die Toten, die nicht im Lager selbst, sondern auf Transporten nach oder von Ketschendorf starben, wurden oft unterwegs verscharrt. Insgesamt sind 4.722 Tote namentlich bekannt. In Bezug auf die Häftlingszahlen ergibt sich damit eine Sterblichkeit von 24 bis 47 Prozent.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-button-7 map-button" id="map-button-7">
+                    <i class="fa fa-map-marker-alt"></i>
+                    <div class="map-info map-info-1">
+                        <div class="map-info-box">
+                            <h2>Wäldchen</h2>
+                            <div class="img-box">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/TTmGOimI9r0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="info">
+                                <p>
+                                    Der Begriff “Wäldchen” lässt sich erstmals 1947 als Bezeichnung für den Ort zwischen südlichem Lagerzaun und Autobahn nachweisen. Er stand synonym für die Massengräber des Lagers, auf denen Bäume gepflanzt wurden, die allerdings zu großen Teilen verdorrten.
+
+                                    Die Toten und damit auch die Massengräber wurden nach der Auflösung des Lagers verschwiegen. Angehörige von Verstorbenen legten nach 1947 Blumen und andere Trauerbekundungen im Wäldchen ab. Diese wurden allerdings regelmäßig entfernt. Zum Jahreswechsel 1952/53 wurde ein Großteil der Verstorbenen exhumiert und auf dem <a href="glossar.html" title="Der Waldfriedhof in Halbe ist eine der größten Kriegsgräberstätten Deutschlands. Er entstand ab 1951 als Zentralfriedhof für die in unbeschrifteten und provisorischen Gräbern beerdigten Leichname während der Kesselschlacht von Halbe 1945 gestorbenen Menschen. Auf dem Friedhof sind sowohl deutsche als auch Sowjetische Soldaten, Zivilist:innen, sowie die Toten des Speziallagers Ketschendorf bestattet. Viele der Toten konnten nicht identifiziert werden. Bis heute gibt es Umbettungen von Kriegstoten auf den Waldfriedhof.">Waldfriedhof in Halbe</a> bestattet. Die Exhumierung wurde von behördlicher Seite geheimgehalten, durch Beobachtungen von Anwohner:innen und Erzählungen der beteiligten Arbeiter:innen konnte dies aber nicht vollständig gelingen. Etwa 200 Tote wurden nicht exhumiert und befinden sich daher noch auf dem Gelände des “Wäldchens”. Auf Teilen des “Wäldchen”-Geländes wurden anschließend Wohnhäuser, Garagen und Kleingärten errichtet.
+
+                                    Erst nach der Friedlichen Revolution in der DDR konnte den Toten öffentlich gedacht werden. Im Rahmen der ersten Gedenkveranstaltung am 08. Mai 1990 wurde auf dem unbebauten Teil des “Wäldchens” ein Gedenkstein errichtet. Der Gedenkort im Wäldchen wurde in den 90er-Jahren mehrmals beschädigt. 2001 erhielt er mit dem Aufstellen des Holzkreuzes seine heutige Gestalt. Jährlich findet hier die Gedenkveranstaltung der Initiativgruppe Internierungslager Ketschendorf statt.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-button-8 map-button" id="map-button-8">
+                    <i class="fa fa-map-marker-alt"></i>
+                    <div class="map-info map-info-1">
+                        <div class="map-info-box">
+                            <h2>Bahnstrecke</h2>
+                            <div class="img-box">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/zR86Vn47DjY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="info">
+                                <p>
+                                    Inhaftierte wurden mit Zügen von Ketschendorf in andere Lager verlegt. Kleinere Transporten fanden auch per LKW oder PKW statt. Die Bahnstrecke der sogenannten “Beeskower Bahn” befindet sich dabei unmittelbar westlich des ehemaligen Lagergeländes. Das Lager Ketschendorf diente ebenfalls als Sammelpunkt für Sowjetische Internierte, wie zum Beispiel die ROA-Soldaten, die von dort aus mit dem Zug in die UdSSR transportiert wurden. Im Zuge der Auflösung des Lagers wurden die Inhaftierten in anderen Speziallager, wie Jamlitz, Fünfeichen oder Buchenwald, verlegt, teilweise gab es auch Transporte von Deutschen in Sowjetische
+                                    
+                                        <div class="special-word" id="RUNDGANG03">
+                                            <span class="main-word">Gulags</span>
+                                            <div class="special-word-info poplink">
+                                                 
+                                                <h2>Gulags</h2>
+                                                <p>Der Begriff GuLag bezeichnet das Sowjetische System der Straf- und Arbeitslager, das ab den 1920er-Jahren systematisch ausgebaut wurde. Die Lager befanden sich oft in unwirtlichen Gegenden Sibiriens. Die Lebens- und Arbeitsbedingungen, beispielsweise die Versorgung mit Medizin, Nahrung oder Kleidung, waren extrem schlecht. Nach dem Zweiten Weltkrieg wurden neben den Sowjetischen Häftlingen auch deutsche Kriegsgefangene, tatsächliche oder vermeintliche Nazis, sowie deutsche Oppositionelle aus der SBZ in sibirischen Straflagern inhaftiert.</p>
+                                            </div>
+                                        </div>
+                                     Die Transporte fanden mit Viehwaggons statt. In einem Waggon befanden sich um die 50 Internierten.
+
+                                    Nicht geklärt ist, ob sich auch in unmittelbarer Nähe der Bahnstrecke Gräber befanden. Ein Zeitzeugenbericht deutet darauf hin. Menschen, die auf den Transporten verstarben, wurden häufig direkt an der Bahnstrecke verscharrt. Dies erschwert eine Schätzung der auf den Transporten verstorbenen Toten.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-button-9 map-button" id="map-button-9">
+                    <i class="fa fa-map-marker-alt"></i>
+                    <div class="map-info map-info-1">
+                        <div class="map-info-box">
+                            <h2>Appelplatz/Küche</h2>
+                            <div class="img-box">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/2q0RJwzvsEM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="info">
+                                <p>
+                                    Auf dem Appellplatz fanden Morgen- und Abendappelle statt. Neben den Mahlzeiten waren die beiden Appelle feste Punkte im Alltag der Inhaftierten, der für die meisten Lagerinsassen von quälendem Nichtstun oder Beschäftigungslosigkeit geprägt war.
+
+                                    Die heute nicht mehr existente Küchenbaracke befand sich in unmittelbarer Nähe zum Appellplatz. Einen Speisesaal, wie in anderen Lagern, gab es nicht. Die von der Sowjetischen Verwaltung herausgegeben Normen für Verpflegung wurden nicht erreicht. Statt der offiziellen 600 Gramm Brot täglich, erhielten die Internierten nie mehr als 500 Gramm täglich. Die tägliche Energiezufuhr verbesserte sich Mitte des Jahres 1946, bevor im November 1946 die Rationen erneut gekürzt wurden. Internierte erhielten im November 1946 nur 300 Gramm Brot, erst ab Dezember oder Januar wurden die Rationen wieder leicht erhöht. Unterernährung und die daraus folgenden Krankheitsbilder waren die Haupttodesursache im Speziallager Ketschendorf.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-button-10 map-button" id="map-button-10">
+                    <i class="fa fa-map-marker-alt"></i>
+                    <div class="map-info map-info-1">
+                        <div class="map-info-box">
+                            <h2>Männerlager/mittlere Generation</h2>
+                            <div class="img-box">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/NkikW_41bZQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="info">
+                                <p>
+                                    Die sogenannte “mittlere Generation”, im Alter von etwa 25 bis 50, war, vor allem was männliche Internierte betrifft, kaum im Lager präsent. Das war vor allem eine Folge ihrer Mobilisierung als Soldaten der Wehrmacht. Als solche waren sie Kriegsgefangene und somit in anderen Lagern untergebracht.
+
+                                    Angesicht des jahrzehntelangen Schweigens über das Lager in der DDR, sind es ab 1989/90 vor allem Jugendliche, die als Zeitzeug:innen für das Speziallager Ketschendorf über das Lager berichten. Das führt dazu, dass auch die Wahrnehmung und die bekannten Informationen über das Lager vor allem von (damals) Jugendlichen stammen.
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-button-11 map-button" id="map-button-11">
+                    <i class="fa fa-map-marker-alt"></i>
+                    <div class="map-info map-info-1">
+                        <div class="map-info-box">
+                            <h2>Eigenes Engagement</h2>
+                            <div class="img-box">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/5GaKUIVag6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="info">
+                                <p>Ingolf Poetsch arbeitet seit 2013 als Gedenkstättenlehrer und ist seit 2017 für die Gedenkstätten im Raum Fürstenwalde zuständig. Dazu nutzen er und die Schüler:innen der umliegenden Schulen die 2015 eröffneten Räumlichkeiten der Geschichtswerkstatt. Ingolf Poetsch legt besonderes Augenmerk auf die Verbindung von Naturwissenschaften und Geschichtsvermittlung. Schüler:innen lernen bei ihm mittels Geocaching oder Where-I-go die Geschichte des Speziallagers Ketschendorf. Auch ein, im Rahmen von “Jugend forscht”, gebauter Roboter führt durch die Ausstellung in der Geschichtswerkstatt.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-button-12 map-button" id="map-button-12">
+                    <i class="fa fa-map-marker-alt"></i>
+                    <div class="map-info map-info-1">
+                        <div class="map-info-box">
+                            <h2>Bewohner:innen der Siedlung</h2>
+                            <div class="img-box">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/mKg5Po_L1gE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="info">
+                                <p>
+                                    Nach der Auflösung des Lagers 1947 wurden die Häuser, in denen die Internierten lebten, wieder als Wohngebäude genutzt. Das Lager und die Toten sollten in der SBZ vor der Öffentlichkeit geheim gehalten werden.
+
+                                    Tatsächlich tauchte das Lager Ketschendorf bereits kurz nach Auflösung in der westlichen Presse auf. Die Sowjetische Verwaltung gab keinerlei Auskünfte über die Verstorbenen in Ketschendorf. Allerdings haben bisweilen Entlassene aus den Lagern den Angehörigen den Tod eines Internierten mitgeteilt. Erst nach 1990 war eine öffentliche Aufarbeitung und ein Gedenken an die Verstorbenen des Speziallagers möglich.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- =======x== Main Content ==x======= -->
+    <!-- ========== Footer ========== -->
+    <!-- =======x== Footer ==x======= -->
+    <!-- ===== Main Js file ===== -->
+    <script src="./assets/js/app.js"></script>
+    <script src="./assets/js/menu.js"></script>
+
+    <script src="./assets/js/special-word.js"></script>
+
+
+
+
+
+
+
+</body>
+</html >

@@ -1,0 +1,410 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ketschendorf</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="assets/js/readmore.js"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- font family -->
+    <link rel="stylesheet" href="./assets/css/font.css">
+    <!-- main style sheet -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- Special Word style sheet -->
+    <link rel="stylesheet" href="./assets/css/special-word.css">
+
+    <style>
+        .special-word .special-word-info{
+            width: 320px;
+        }
+        .special-word .special-word-info h2{
+            color: #000 !important;
+        }
+        .special-word .special-word-info p{
+            color: #333 !important;
+        }
+        
+    </style>
+
+    <!-- Responsive Style Sheet -->
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+<body>
+    
+    <!-- ========== Header ========== -->
+    <header id="header">
+        <a href="#" class="toggle-menu-icon">
+            <i class="fas fa-bars" onclick="toggleMenu();"></i>
+            <i class="fas fa-times" onclick="toggleMenu();"></i>
+        </a>
+        <nav id="menu" class="navigation">
+            <ul>
+                <li><a href="index.html" onclick="toggleMenu();">Startseite</a></li>
+                <li><a href="chronik.html" onclick="toggleMenu();">Chronik</a></li>
+                <li><a href="interview.html" onclick="toggleMenu();">Interviews</a></li>
+                <li><a href="Waldfriedhof-Halbe.html" onclick="toggleMenu();">Waldfriedhof Halbe</a></li>
+                <li><a href="rundgang.html" onclick="toggleMenu();">Rundgang</a></li>
+                <li><a href="Über-das-Projekt.html" onclick="toggleMenu();">Über das Projekt</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    <!-- =======x== Header ==x======= -->
+    
+        
+
+    <!-- ========== Main Content ========== -->
+
+    
+    <div class="padd-web">
+        
+        <main id="main">
+                
+                <h2 class="page-title" style="line-height:100%" >Das ehemalige Sowjetische Speziallager in Ketschendorf</h2>
+            
+            <div class="pad-pra">
+                <p class="home-page-description show-read-more">Zwischen 1945 und 1950 existierten im Osten Deutschlands Speziallager, die die Sowjetische Besatzung verwaltete. Die dort
+                     internierten Personen litten unter mangelhafter Ernährung, schlechten hygienischen Zuständen und fehlender medizinischer
+                      Betreuung. Viele fanden den Tod oder litten langfristig an den Folgen der Lagerhaft. Eines dieser Lager war das sogenannte
+                       Sowjetische Speziallager Nr. 5 Ketschendorf in Fürstenwalde (Spree). Auf dieser Website stellen Ehrenamtliche, die sich seit 
+                       den 1990er-Jahren mit der Aufarbeitung des Lagers beschäftigen, ihre Arbeit und die Geschichte des Ortes vor. In einem 
+                       <a href="rundgang.html">Rundgang</a> 
+                       mit dem Gedenkstättenlehrer Wolfgang Poetsch kann das ehemalige Lagergelände erkundet werden. In Form von 
+                       <a href="interview.html">Interviews</a> 
+                       erzählen Eckhard Fichtmüller und Alfred Schubert (Initiativgruppe Sowjetisches Internierungslager Ketschendorf e.V.), ebenso wie die 
+                       Archivarin Angela Kiefer-Hofmann von der Entstehung der Initiativgruppe und ihrem Engagement. Ein 
+                       <a href="chronik.html">Zeitstrahl</a>
+                        gibt einen Überblick über die Geschichte des Lagers – und die bis heute andauernde Aufarbeitung. Schließlich können 
+                        Eckhard Fichtmüller und Alfred Schubert virtuell zu einer Kranzniederlegung auf den 
+                        <a href="Waldfriedhof-Halbe.html">Waldfriedhof Halbe</a> begleitet werden.</p>
+            </div>      
+            <div class="img-box-wrapper">
+                <div class="img-box">
+                    <a href="chronik.html">
+                    <img src="./assets/img/Zeitstrahl.jpg" alt="" class="img-fluid">
+                    <div class="img-box-text">
+                        <h2>Chronik</h2>
+                    </div>
+                    </a>
+                </div>
+                <div class="img-box">
+                    <a href="interview.html">
+                    <img src="./assets/img/Interviews.jpg" alt="" class="img-fluid">
+                    <div class="img-box-text">
+                        <h2>Interview</h2>
+                    </div>
+                    </a>
+                </div>
+                <div class="img-box">
+                    <a href="rundgang.html">
+                    <img src="./assets/img/Rundgang.jpg" alt="" class="img-fluid">
+                    <div class="img-box-text">
+                        <h2>Rundgang</h2>
+                    </div>
+                    </a>
+                </div>
+                <div class="img-box">
+                    <a href="Waldfriedhof-Halbe.html">
+                    <img src="./assets/img/Waldfriedhof.jpg" alt="" class="img-fluid">
+                    <div class="img-box-text">
+                        <h2>Waldfriedhof Halbe</h2>
+                    </div>
+                    </a>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="pad-pra">
+                        <p class="home-page-description" style="display: inline;">Wie auf den letzten Kriegskonferenzen der Alliierten vereinbart, richteten die Besatzungsmächte in ihren Zonen Lager ein, in denen Kriegsverbrecher und Nationalsozialist:innen inteniert werden sollten. Die Sowjetische Besatzungsmacht richtete in der
+                
+                    <div class="special-wrd" id="ID01">
+                        <span class="main-wrd">SBZ</span>
+                        <div class="special-wrd-info">
+                            <div id="closeButton04" class="closeButton"><i class="fa fa-times"></i></div> 
+                            <h2>SBZ</h2>
+                            <p>Nach dem zweiten Weltkrieg wurde Deutschland in vier Besatzungszonen aufgeteilt. Die Sowjetische Besatzungszone (SBZ) bestand aus den heutigen Ländern Sachsen, Thüringen, Mecklenburg-Vorpommern und Brandenburg sowie Ost-Berlin. Sie bestand bis zur Staatsgründung der DDR 1949.</p>
+                        </div>
+                    </div>
+                        
+                    10 sogenannte Speziallager ein, die dem
+                    
+                    <div class="special-wrd" id="ID02">
+                        <span class="main-wrd">NKWD</span>
+                        <div class="special-wrd-info">
+                            <div id="closeButton04" class="closeButton"><i class="fa fa-times"></i></div> 
+                            <h2>NKWD</h2>
+                            <p>Die Abkürzung NKWD steht im Russischen für „Volkskommissariat für innere Angelegenheiten“ und bezeichnet somit das Innenministerium der Sowjetunion. Das NKWD war unter anderem für die Sowjetische Geheimpolizei, sowie das Gulag-System und somit auch für die Speziallager verantwortlich. </p>
+                        </div>
+                    </div>
+
+                    unterstanden. Zum Teil wurden dafür, wie im Falle von Buchenwald, Sachsenhausen oder Jamlitz, die Gelände ehemaliger Konzentrationslager genutzt. Zur „Säuberung des Hinterlandes der kämpfenden Truppen der Roten Armee“ sollten laut Befehl 00315 vom 18. April 1945 „feindliche Elemente” inhaftiert werden. Zu diesen zählten diejenigen, die für Nazis, Funktionsträger:innen von NS-Organisationen oder auch Widerstandsgruppen wie beispielsweise
+                    
+                    <div class="special-wrd" id="ID03">
+                        <span class="main-wrd">„Werwölfe“</span>
+                        <div class="special-wrd-info">
+                            <div id="closeButton04" class="closeButton"><i class="fa fa-times"></i></div> 
+                            <h2>„Werwölfe“</h2>
+                            <p>Die sogenannten „Werwölfe“ waren ab September 1944 eine letzte Rekrutierungsmaßnahme der Nazis angesichts einer absehbaren militärischen Niederlage. Durch Sabotage und Guerillaaktionen sollten insbesondere Jugendliche Widerstand gegen die Alliierten leisten, wenn diese Deutschland besetzten. Tatsächlich war die Organisation eher als Mythos wirksam. Aus Angst vor Widerstand gegen ihre Besatzung verhafteten die Alliierten viele junge Menschen mit dem Vorwurf „Werwolf“ zu sein. Die wenigen, tatsächlichen Aktionen der „Werwölfe“ waren kaum relevant</p>
+                        </div>
+                    </div>
+
+                    gehalten wurden, aber auch sogenannte
+                    
+                    <div class="special-wrd" id="ID04">
+                        <span class="main-wrd">Wlassow-Soldaten</span>
+                        <div class="special-wrd-info">
+                            <div id="closeButton04" class="closeButton"><i class="fa fa-times"></i></div> 
+                            <h2>Wlassow-Soldaten</h2>
+                            <p>Die Russische Befreiungsarmee (ROA), auch nach ihrem ersten Kommandanten Andrei Andrejewitsch Wlassow „Wlassow-Armee“ genannt, war eine russisch-Sowjetische Einheit, die auf Seiten der deutschen Wehrmacht gegen die Rote Armee kämpfte. </p>
+                        </div>
+                    </div>
+
+                    , der Kollaboration bezichtigte Zwangsarbeiter:innen und Personen, die sich den Besatzungsbefehlen wiedersetzten. Die letzten Speziallager wurden 1950 aufgelöst. Auf Grund der schlechten Lebensbedingungen gab es in den Lagern eine hohe Sterblichkeitsrate. </p>
+                </main>
+            </div>
+            <!-- pad-pra -->
+        <!-- =======x== Main Content ==x======= -->
+    <!-- padd-web -->    
+
+
+
+    <!-- ========== Map ========== -->
+    <div class="home-page-map padd-web">
+        <div class="map-location-wrapper">
+            <div class="map-img-wrapper">
+                <img src="./assets\img\Kartelager.png" alt="" class="img-fluid map-img">
+                <div class="map-button-1 map-button" id="map-button-1">
+                    <i class="fa fa-circle"></i>
+                    <div class="map-info map-info-1">
+                        <div class="map-info-box">
+                            <h2>Fünfeichen</h2>
+                            <div class="img-box">
+                                <!--<img src="./assets/img/map-dummy-img.PNG" alt="" class="img-fluid"> -->
+                            </div>
+                            <div class="info">
+                                <p>Speziallager Nr. 9, 1945 – 1948. Fünfeichen unterschied sich von den anderen Speziallagern dadurch, dass mit ca. 50% ein hoher Anteil der Inhaftierten Zwangsarbeit leistete.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-button-2 map-button" id="map-button-2">
+                    <i class="fa fa-circle"></i>
+                    <div class="map-info map-info-1">
+                        <div class="map-info-box">
+                            <h2>Weesow</h2>
+                            <div class="img-box">
+                                <!--<img src="./assets/img/map-dummy-img.PNG" alt="" class="img-fluid"> -->
+                            </div>
+                            <div class="info">
+                                <p>Speziallager Nr. 7, Mai – August 1945. Das Speziallager Weesow bestand nur wenige Monate und wurde als Sammel- und Durchgangslager genutzt.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-button-3 map-button" id="map-button-3">
+                    <i class="fa fa-circle"></i>
+                    <div class="map-info map-info-1">
+                        <div class="map-info-box">
+                            <h2>Hohenschönhausen</h2>
+                            <div class="img-box">
+                                <!--<img src="./assets/img/map-dummy-img.PNG" alt="" class="img-fluid"> -->
+                            </div>
+                            <div class="info">
+                                <p>Speziallager Nr. 3, 1945 – 1946. Im November 1946 wurde das Speziallager Nr. 3 aufgelöst und das Gebäude als Untersuchungsgefängnis weiter genutzt. Ab 1951 war es ein Gefängnis der Staatssicherheit. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-button-4 map-button" id="map-button-4">
+                    <i class="fa fa-circle"></i>
+                    <div class="map-info map-info-1">
+                        <div class="map-info-box">
+                            <h2>Sachsenhausen</h2>
+                            <div class="img-box">
+                                <!--<img src="./assets/img/map-dummy-img.PNG" alt="" class="img-fluid"> -->
+                            </div>
+                            <div class="info">
+                                <p>Speziallager Nr. 7 (ab 1948: Nr. 1), 1945 – 1950. Sachsenhausen war mit ca. 60.000 Gefangenen das größte Speziallager in der <a href="glossar.html" title="Nach dem zweiten Weltkrieg wurde Deutschland in vier Besatzungszonen aufgeteilt. Die Sowjetische Besatzungszone (SBZ) bestand aus den heutigen Ländern Sachsen, Thüringen, Mecklenburg-Vorpommern und Brandenburg sowie Ost-Berlin. Sie bestand bis zur Staatsgründung der DDR 1949.">SBZ</a>. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-button-5 map-button" id="map-button-5">
+                    <i class="fa fa-circle"></i>
+                    <div class="map-info map-info-1">
+                        <div class="map-info-box">
+                            <h2>Ketschendorf</h2>
+                            <div class="img-box">
+                                <!--<img src="./assets/img/map-dummy-img.PNG" alt="" class="img-fluid"> -->
+                            </div>
+                            <div class="info">
+                                <p>Speziallager Nr. 5, 1945 – 1947. Ketschendorf bei Fürstenwalde war im April 1945 das erste  Speziallager der Roten Armee.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-button-6 map-button" id="map-button-6">
+                    <i class="fa fa-circle"></i>
+                    <div class="map-info map-info-1">
+                        <div class="map-info-box">
+                            <h2>Jamlitz</h2>
+                            <div class="img-box">
+                                <!--<img src="./assets/img/map-dummy-img.PNG" alt="" class="img-fluid"> -->
+                            </div>
+                            <div class="info">
+                                <p>Speziallager Nr. 6, 1945 – 1947. Da das Gebiet östlich der Oder unter polnische Verwaltung fiel wurde das Speziallager Nr. 6 im September 1945 von Słubice (Frankfurt/Oder) nach Jamlitz verlegt.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-button-7 map-button" id="map-button-7">
+                    <i class="fa fa-circle"></i>
+                    <div class="map-info map-info-1">
+                        <div class="map-info-box">
+                            <h2>Torgau</h2>
+                            <div class="img-box">
+                                <!--<img src="./assets/img/map-dummy-img.PNG" alt="" class="img-fluid"> -->
+                            </div>
+                            <div class="info">
+                                <p>Speziallager Nr. 8, 1945 – 1947/Speziallager Nr. 10, 1946 – 1948. In Torgau gab es zwei Speziallager. In Nr. 8 waren die Mehrzahl der Inhaftierten Angehörige der NSDAP. In Nr. 10 wurden hauptsächliche Sowjetische Staatsbürger:innen inhaftiert.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-button-8 map-button" id="map-button-8">
+                    <i class="fa fa-circle"></i>
+                    <div class="map-info map-info-1">
+                        <div class="map-info-box">
+                            <h2>Mühlberg</h2>
+                            <div class="img-box">
+                                <!--<img src="./assets/img/map-dummy-img.PNG" alt="" class="img-fluid"> -->
+                            </div>
+                            <div class="info">
+                                <p>Speziallager Nr. 1, 1945 – 1948. In Mühlberg nutzte die Rote Armee ein ehemaliges Kriegsgefangenenlager für die Inhaftierung von als „Volksverrätern“ bezichtigte Personen und erklärte es ab September 1945 zum Speziallager.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-button-9 map-button" id="map-button-9">
+                    <i class="fa fa-circle"></i>
+                    <div class="map-info map-info-1">
+                        <div class="map-info-box">
+                            <h2>Bautzen</h2>
+                            <div class="img-box">
+                                <!--<img src="./assets/img/map-dummy-img.PNG" alt="" class="img-fluid"> -->
+                            </div>
+                            <div class="info">
+                                <p>Speziallager Nr. 4, 1945 – 1950. Auch nach Auflösung des Lagers war Bautzen I eine Haftanstalt. Viele der verurteilten Inhaftierten des Speziallagers blieben dort und verbrachten den Rest ihrer Haftzeit im Strafvollzug der DDR.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-button-10 map-button" id="map-button-10">
+                    <i class="fa fa-circle"></i>
+                    <div class="map-info map-info-1">
+                        <div class="map-info-box">
+                            <h2>Buchenwald</h2>
+                            <div class="img-box">
+                                <!--<img src="./assets/img/map-dummy-img.PNG" alt="" class="img-fluid"> -->
+                            </div>
+                            <div class="info">
+                                <p>Speziallager Nr. 2, 1945 – 1950. Das Speziallager Buchenwald galt auf Grund seiner völligen Isolation als „Schweigelager“.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- =======x== Map ==x======= -->
+    
+
+    <!-- ========== Footer ========== -->
+    <!-- =======x== Footer ==x======= -->
+
+
+    <!-- ===== Main Js file ===== -->
+    <script src="./assets/js/menu.js"></script>
+    <script src="./assets/js/home-page-map.js"></script>
+
+
+    <script>
+        var ID01 = document.getElementById("ID01");
+        var ID02 = document.getElementById("ID02");
+        var ID03 = document.getElementById("ID03");
+        var ID04 = document.getElementById("ID04");
+
+        // var homePageCloseButton = document.getElementById("homePageCloseButton");
+
+        // var hMapButton01 = document.getElementById("map-button-01");
+        // var hMapButton02 = document.getElementById("map-button-02");
+        // var hMapButton03 = document.getElementById("map-button-03");
+        // var hMapButton04 = document.getElementById("map-button-04");
+        // var hMapButton05 = document.getElementById("map-button-05");
+        // var hMapButton06 = document.getElementById("map-button-06");
+        // var hMapButton07 = document.getElementById("map-button-07");
+        // var hMapButton08 = document.getElementById("map-button-08");
+        // var hMapButton09 = document.getElementById("map-button-09");
+        // var hMapButton10 = document.getElementById("map-button-10");
+
+
+        ID01.addEventListener("click", function(){
+            ID01.classList.toggle("active");
+            ID02.classList.remove("active");
+            ID03.classList.remove("active");
+            ID04.classList.remove("active");
+        });
+        ID02.addEventListener("click", function(){
+            ID01.classList.remove("active");
+            ID02.classList.toggle("active");
+            ID03.classList.remove("active");
+            ID04.classList.remove("active");
+        });
+        ID03.addEventListener("click", function(){
+            ID01.classList.remove("active");
+            ID02.classList.remove("active");
+            ID03.classList.toggle("active");
+            ID04.classList.remove("active");
+        });
+        ID04.addEventListener("click", function(){
+            ID01.classList.remove("active");
+            ID02.classList.remove("active");
+            ID03.classList.remove("active");
+            ID04.classList.toggle("active");
+        });
+
+        
+
+
+        // hMapButton01.addEventListener("click", function(){
+        //     hMapButton01.classList.add("active");
+        //     homePageCloseButton.classList.add("active");
+        // });
+
+        // homePageCloseButton.addEventListener("click", function(){
+        //     hMapButton01.classList.remove("active");
+        //     hMapButton02.classList.remove("active");
+        //     hMapButton03.classList.remove("active");
+        //     hMapButton04.classList.remove("active");
+        //     hMapButton05.classList.remove("active");
+        //     hMapButton06.classList.remove("active");
+        //     hMapButton07.classList.remove("active");
+        //     hMapButton08.classList.remove("active");
+        //     hMapButton09.classList.remove("active");
+        //     hMapButton10.classList.remove("active");
+        //     homePageCloseButton.classList.remove("active");
+        // });
+
+
+    </script>
+
+
+
+</body>
+</html>

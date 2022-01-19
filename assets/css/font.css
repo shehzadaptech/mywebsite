@@ -1,0 +1,36 @@
+/* Metro */
+@font-face {
+    font-family: "metro";
+    src: url(../font/MetroSans-Regular.otf);
+}
+/* Metro Semi Bold */
+@font-face {
+    font-family: "metro-semi-bold";
+    src: url(../font/MetroSans-SemiBold.otf);
+}
+/* Metro Bold */
+@font-face {
+    font-family: "metro-bold";
+    src: url(../font/MetroSans-Bold.otf);
+}
+/* Metro Light */
+@font-face {
+    font-family: "metro-light";
+    src: url(../font/MetroSans-Light.otf);
+}
+/* Metro medium */
+@font-face {
+    font-family: "metro-medium";
+    src: url(../font/MetroSans-Medium.otf);
+}
+/*Roboto*/
+@font-face {
+    font-family: 'roboto';
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+/*Muli*/
+@font-face {
+    font-family: 'muli';
+    src: url(../font/Muli-Regular.ttf);
+}
